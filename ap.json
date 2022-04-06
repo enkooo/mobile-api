@@ -11,7 +11,7 @@
   "adjust.token.shortcut_account": "r1bcg9",
   "adjust.token.shortcut_favorites": "gfrcoy",
   "adjust.token.shortcut_search": "uhqv27",
-  "app.base_url": "http://localhost:8080/",
+  "app.base_url": "http://bs-local.com",
   "configurations": [
     {
       "config_pl": "config_pl.json"

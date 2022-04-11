@@ -8,10 +8,11 @@
   "adjust.token.sharing_link": "4bnrab",
   "adjust.token.sharing_menu_opened": "6cc09f",
   "adjust.token.sharing_screenshot": "6fxsk4",
-  "adjust.token.shortcut_account": "r1bcg9",
-  "adjust.token.shortcut_favorites": "gfrcoy",
-  "adjust.token.shortcut_search": "uhqv27",
-  "app.base_url": "http://bs-local.com:8080/",
+  "airship.tracking": true,
+  "airship.tracking.basket_badge_count": true,
+  "airship.tracking.purchase_completed": true,
+  "airship.tracking.user_info": true,
+  "app.base_url": "http://bs-local.com:8080",
   "configurations": [
     {
       "config_pl": "config_pl.json"
@@ -29,43 +30,44 @@
       "config_hu": "config_hu.json"
     },
     {
-      "dev_pl": "dev_pl.json"
-    },
-    {
-      "dev_*": "dev_pl.json"
-    },
-    {
       "*": "config_pl.json"
     }
   ],
   "configurations.format": "config_${COUNTRY_CODE:pl}",
   "feature.app_links": true,
+  "feature.banner_assortment_navigation": true,
+  "feature.basketBadgeCountPush": true,
   "feature.country_switch_on_start": true,
+  "feature.inbox": false,
+  "feature.inbox.detailWebView": true,
   "feature.new_navigation": true,
   "feature.push": true,
+  "feature.push.install_default_opt_in": true,
   "feature.rating": true,
   "feature.recommendation": true,
+  "feature.shakeADeal": false,
   "feature.sharing": false,
   "feature.track_uninstall": true,
   "feature.tracking": true,
+  "feature.welcome_screen": true,
   "firebase.analytic_events": true,
   "firebase.log_caught_exceptions": true,
   "i18n.countries": [
     {
       "code": "pl",
-      "host": "bonprix.pl",
+      "host": "pl.bonprix.pl",
       "locale": "pl_PL",
       "name": "Polska"
     },
     {
       "code": "ro",
-      "host": "bonprix.ro",
+      "host": "ro.bonprix.pl",
       "locale": "ro_RO",
       "name": "România"
     },
     {
       "code": "ua",
-      "host": "bonprix.ua",
+      "host": "ua.bonprix.pl",
       "locale": "ru_UA",
       "name": "Украина",
       "aliases": [
@@ -74,13 +76,13 @@
     },
     {
       "code": "sk",
-      "host": "bonprix.sk",
+      "host": "sk.bonprix.pl",
       "locale": "sk_SK",
       "name": "Slovensko"
     },
     {
       "code": "hu",
-      "host": "bonprix.hu",
+      "host": "hu.bonprix.pl",
       "locale": "hu_HU",
       "name": "Magyarország"
     }
@@ -91,11 +93,21 @@
   "navigation.flatten_top_level": true,
   "navigation.legacy.logout_button": true,
   "navigation.upper_case_mode": "none",
+  "push.promotion_layer.trigger.app_start": false,
+  "push.promotion_layer.trigger.purchase_completed": true,
+  "push.promotion_layer.trigger.purchase_completed.delay_seconds": 2.5,
+  "push.promotion_layer.trigger.screen_views": true,
+  "push.promotion_layer.trigger.screen_views.count": 20,
+  "push.promotion_layer.trigger.url": true,
+  "push.promotion_layer.trigger.webbridge": true,
   "rating.show_after_start_count": 10,
   "rating.trigger_again_if_declined": true,
   "recommendation.link": "https://app.adjust.com/3nmw5o_p2ibir",
   "retrieval.timeout_connect_in_ms": 20000,
   "retrieval.timeout_read_in_ms": 22500,
+  "shakeADealDurationOfDeal": 5000,
+  "shakeADealNumberOfDeals": 5,
+  "shakeADealResumeThreshold": 3000,
   "sharing.blacklist": [
     "com.syntomo.email",
     "com.yahoo.mobile.client.android.mail",
@@ -156,19 +168,18 @@
   ],
   "sharing.screenshot_mode": "with_link",
   "shop.clear_session_cookie": false,
-  "shortcut.account": "moje-konto/",
-  "shortcut.favorites": "wishlist/",
-  "shortcut.search": "app://openSearch",
+  "token.override.RETRIEVAL_DEFAULT_AUTH": "Basic bmV3Ym9ucHJpeHRlc3RwbDpkMlNqNUZrMkVqM0xmNUNkNlBzRDJtVTQ=",
   "toolbar.title_mode": "bridge",
   "tracking.adjust.add_to_basket": "wp7ko3",
   "tracking.adjust.add_to_wishlist": "3rhd0k",
   "tracking.adjust.login": "44yc83",
   "tracking.adjust.new_registration": "c3m4ji",
-  "url.action_account": "moje-konto/",
+  "tracking.ignore_webbridge": true,
+  "url.action_account": "my-account/",
   "url.action_basket": "cart/",
   "url.action_favorites": "wishlist/",
-  "url.action_login": "moje-konto/",
-  "url.action_logout": "moje-konto/logout",
+  "url.action_login": "my-account/login",
+  "url.action_logout": "my-account/logout",
   "url.action_rating": "app://openRating",
   "url.action_register": "shipping_reg",
   "url.action_search": "app://openSearch",
@@ -179,12 +190,13 @@
   "url.api_navigation.service": "mobile-api/navigation/service",
   "url.api_search": "mobile-api/search/?term=",
   "url.api_suggest": "https://bon-master.aac.ninja/search-test/v1/pl_PL/suggest?query=",
+  "url.shake_a_deal": "https://bon.aac.ninja/shakeadeal/v1/deal/",
   "urls.account": [
     "app://openAccount",
     "app://openAccount/service"
   ],
   "urls.basket": [
-    "cart"
+    "cart/"
   ],
   "urls.browser": [
     "https://twitter.com/bonprixPL",
@@ -207,7 +219,8 @@
   "urls.external": [
     "https://secure.payu.com",
     "https://www.computop-paygate.com",
-    "https://www.payu.pl"
+    "https://www.payu.pl",
+    "https://bonprixplnew.media4u.pl/checkout/"
   ],
   "urls.ignored": [
     "about:blank"
@@ -342,12 +355,15 @@
     "www.youtube.com",
     "x.bidswitch.net",
     "x01.aidata.io",
-    "z.lenmit.com"
+    "z.lenmit.com",
+    "ahgm.adj.st"
   ],
   "urls.refresh_trigger": [],
   "urls.start_page": [
     "regex:^https?:\\/\\/(.+\\.)?bonprix(ro|shop|)\\.[a-z]+\\/$"
   ],
-  "user.persist_state": true
+  "user.persist_state": true,
+  "user_agent.accengage.enabled": true,
+  "user_agent.adjust.enabled": true,
+  "user_agent.airship.enabled": true
 }
-

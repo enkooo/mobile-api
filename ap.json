@@ -12,7 +12,7 @@
 "airship.tracking.basket_badge_count": true,
 "airship.tracking.purchase_completed": true,
 "airship.tracking.user_info": true,
-"app.base_url": "https://bonprix-8801-remote.dev.devphpbp.m4u.pl/"",
+"app.base_url": "https://bonprix-8801-remote.dev.devphpbp.m4u.pl/",
 "configurations": [
 {
 "config_pl": "config_pl.json"

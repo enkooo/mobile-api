@@ -203,7 +203,7 @@
         "isString": true
       },
       "host": {
-        "content": "bonprix.es",
+        "content": "bonprixes.media4u.pl",
         "isString": true
       },
       "locale": {
@@ -221,7 +221,7 @@
         "isString": true
       },
       "host": {
-        "content": "bonprix.fi",
+        "content": "bonprixfi.media4u.pl",
         "isString": true
       },
       "locale": {
@@ -587,8 +587,16 @@
     "content": "mi-cuenta/",
     "isString": true
   },
+  "url.action_account_chat": {
+    "content": "https://bonprix.m3.enuan.com/bonprix-es/livechat?P2=y&P1=x&opener=https%3A%2F%2Fwww.bonprix.es%2Fcesta%2F",
+    "isString": true
+  },
   "url.action_account_orders": {
     "content": "mi-cuenta/?page=orders",
+    "isString": true
+  },
+  "url.action_account_returns": {
+    "content": "mi-cuenta/?page=returns",
     "isString": true
   },
   "url.action_account_service": {
@@ -636,7 +644,7 @@
     "isString": true
   },
   "url.api_image": {
-    "content": "https://bpx.aac.ninja/image-v2/scaled?scaleUp=false&bucketPower=2",
+    "content": "https://bpx-master.aac.ninja/image-v2/scaled?scaleUp=false&bucketPower=2",
     "isString": true
   },
   "url.api_navigation": {
@@ -660,7 +668,7 @@
     "isString": true
   },
   "url.shake_a_deal": {
-    "content": "https://bpx.aac.ninja/shakeadeal/v1/deal/",
+    "content": "https://bpx-master.aac.ninja/shakeadeal-integ/v1/deal/",
     "isString": true
   },
   "urls.account": [

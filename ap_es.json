@@ -681,7 +681,7 @@
       "isString": true
     },
     {
-      "content": "regex:^https?:\\/\\/(.*\\.)?bonprix\\.(es|fi)\\/myaccount(?!\\/logout).*",
+      "content": "regex:^https?:\\/\\/(.*\\.)?bonprix*\\.(es|fi)\\/myaccount(?!\\/logout).*",
       "isString": true
     },
     {
@@ -689,7 +689,7 @@
       "isString": true
     },
     {
-      "content": "regex:^https?:\\/\\/(.*\\.)?bonprix\\.es\\/mi-cuenta(?!\\/logout).*",
+      "content": "regex:^https?:\\/\\/.*bonprix-es.*\\/mi-cuenta(?!\\/logout).*",
       "isString": true
     }
   ],
@@ -740,7 +740,7 @@
   ],
   "urls.internal": [
     {
-      "content": "regex:^https?:\\/\\/.*bonprix.*\\..*",
+      "content": "regex:^https?:\\/\\/.*bonprix-es.*\\..*",
       "isString": true
     },
     {
@@ -771,7 +771,7 @@
   "urls.refresh_trigger": [],
   "urls.start_page": [
     {
-      "content": "regex:^https?:\\/\\/(.+\\.)?bonprix(es|shop|)\\.[a-z]+\\/$",
+      "content": "regex:^https?:\\/\\/.*bonprix-es.*\\..*",
       "isString": true
     }
   ],

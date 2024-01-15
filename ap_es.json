@@ -1,0 +1,786 @@
+{
+  "adjust.token.purchase_completed": {
+    "content": "h4jozr",
+    "isString": true
+  },
+  "adjust.token.rated_good": {
+    "content": "jhh4xk",
+    "isString": true
+  },
+  "adjust.token.rating_choice_bad": {
+    "content": "usmqi4",
+    "isString": true
+  },
+  "adjust.token.rating_choice_good": {
+    "content": "1ou3k6",
+    "isString": true
+  },
+  "adjust.token.recommendation": {
+    "content": "mmyfbk",
+    "isString": true
+  },
+  "adjust.token.shared": {
+    "content": "706r5w",
+    "isString": true
+  },
+  "adjust.token.sharing_link": {
+    "content": "ww4829",
+    "isString": true
+  },
+  "adjust.token.sharing_menu_opened": {
+    "content": "706r5w",
+    "isString": true
+  },
+  "adjust.token.sharing_screenshot": {
+    "content": "9iddlg",
+    "isString": true
+  },
+  "airship.tracking": {
+    "content": "true",
+    "isString": false
+  },
+  "airship.tracking.basket_badge_count": {
+    "content": "true",
+    "isString": false
+  },
+  "airship.tracking.purchase_completed": {
+    "content": "true",
+    "isString": false
+  },
+  "airship.tracking.user_info": {
+    "content": "true",
+    "isString": false
+  },
+  "airship_channel_id_dialog": {
+    "content": "true",
+    "isString": false
+  },
+  "app.base_url": {
+    "content": "https://www.bonprix.es/",
+    "isString": true
+  },
+  "configurations": [
+    {
+      "config_es": {
+        "content": "config_es.json",
+        "isString": true
+      }
+    },
+    {
+      "config_fi": {
+        "content": "config_fi.json",
+        "isString": true
+      }
+    },
+    {
+      "config_*": {
+        "content": "config_es.json",
+        "isString": true
+      }
+    },
+    {
+      "config_default": {
+        "content": "config_es.json",
+        "isString": true
+      }
+    },
+    {
+      "media4u_es": {
+        "content": "media4u_es.json",
+        "isString": true
+      }
+    },
+    {
+      "media4u_fi": {
+        "content": "media4u_fi.json",
+        "isString": true
+      }
+    },
+    {
+      "media4u_*": {
+        "content": "media4u_es.json",
+        "isString": true
+      }
+    },
+    {
+      "media4u_default": {
+        "content": "media4u_es.json",
+        "isString": true
+      }
+    },
+    {
+      "*": {
+        "content": "config_es.json",
+        "isString": true
+      }
+    }
+  ],
+  "configurations.format": "config_${COUNTRY_CODE:es}",
+  "feature.app_links": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.country_switch_on_start": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.inbox": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.inbox.detailWebView": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.new_navigation": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.push": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.push.install_default_opt_in": {
+    "content": "false",
+    "isString": false
+  },
+  "feature.rating": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.recommendation": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.search_box": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.search_v2": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.search_v2_shortcut_myaccount": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.search_v2_trending": {
+    "content": "false",
+    "isString": false
+  },
+  "feature.shakeADeal": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.sharing": {
+    "content": "false",
+    "isString": false
+  },
+  "feature.track_uninstall": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.tracking": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.welcome_screen": {
+    "content": "true",
+    "isString": false
+  },
+  "firebase.analytic_events": {
+    "content": "true",
+    "isString": false
+  },
+  "firebase.log_caught_exceptions": {
+    "content": "true",
+    "isString": false
+  },
+  "i18n.countries": [
+    {
+      "code": {
+        "content": "es",
+        "isString": true
+      },
+      "host": {
+        "content": "stage-www-bonprix-es.m4u.pl",
+        "isString": true
+      },
+      "locale": {
+        "content": "es_ES",
+        "isString": true
+      },
+      "name": {
+        "content": "España",
+        "isString": true
+      }
+    },
+    {
+      "code": {
+        "content": "fi",
+        "isString": true
+      },
+      "host": {
+        "content": "bonprix.fi",
+        "isString": true
+      },
+      "locale": {
+        "content": "fi_FI",
+        "isString": true
+      },
+      "name": {
+        "content": "Suomi",
+        "isString": true
+      }
+    }
+  ],
+  "i18n.install_default": {
+    "content": "es",
+    "isString": true
+  },
+  "image_api.timeout": {
+    "content": "20000.0",
+    "isString": false
+  },
+  "navigation.add_start_page": {
+    "content": "true",
+    "isString": false
+  },
+  "navigation.all_require_icons": true,
+  "navigation.flatten_top_level": {
+    "content": "true",
+    "isString": false
+  },
+  "navigation.legacy.logout_button": {
+    "content": "true",
+    "isString": false
+  },
+  "navigation.upper_case_mode": {
+    "content": "none",
+    "isString": true
+  },
+  "promoMessageTriggerAppEnabled": {
+    "content": "true",
+    "isString": false
+  },
+  "promoMessageTriggerWebbridgeEnabled": {
+    "content": "true",
+    "isString": false
+  },
+  "promoPattern": {
+    "content": "cvp=",
+    "isString": true
+  },
+  "push.promotion_layer.trigger.app_start": {
+    "content": "true",
+    "isString": false
+  },
+  "push.promotion_layer.trigger.purchase_completed": {
+    "content": "true",
+    "isString": false
+  },
+  "push.promotion_layer.trigger.purchase_completed.delay_seconds": {
+    "content": "2.5",
+    "isString": false
+  },
+  "push.promotion_layer.trigger.screen_views": {
+    "content": "true",
+    "isString": false
+  },
+  "push.promotion_layer.trigger.screen_views.count": {
+    "content": "20.0",
+    "isString": false
+  },
+  "push.promotion_layer.trigger.url": {
+    "content": "true",
+    "isString": false
+  },
+  "push.promotion_layer.trigger.webbridge": {
+    "content": "false",
+    "isString": false
+  },
+  "rating.show_after_start_count": {
+    "content": "10.0",
+    "isString": false
+  },
+  "rating.trigger_again_if_declined": {
+    "content": "true",
+    "isString": false
+  },
+  "recommendation.link": {
+    "content": "https://app.adjust.com/qnmxbf6",
+    "isString": true
+  },
+  "retrieval.timeout_connect_in_ms": {
+    "content": "20000.0",
+    "isString": false
+  },
+  "retrieval.timeout_read_in_ms": {
+    "content": "22500.0",
+    "isString": false
+  },
+  "shakeADealDurationOfDeal": {
+    "content": "7000.0",
+    "isString": false
+  },
+  "shakeADealNumberOfDeals": {
+    "content": "3.0",
+    "isString": false
+  },
+  "shakeADealPromoCodeEndDate": {
+    "content": "hoy",
+    "isString": true
+  },
+  "shakeADealPromoPattern": {
+    "content": "cvp=",
+    "isString": true
+  },
+  "shakeADealResumeThreshold": {
+    "content": "3000.0",
+    "isString": false
+  },
+  "sharing.blacklist": [
+    {
+      "content": "com.syntomo.email",
+      "isString": true
+    },
+    {
+      "content": "com.yahoo.mobile.client.android.mail",
+      "isString": true
+    },
+    {
+      "content": "de.eue.mobile.android.mail",
+      "isString": true
+    },
+    {
+      "content": "de.freenet.mail",
+      "isString": true
+    },
+    {
+      "content": "de.gmx.mobile.android.mail",
+      "isString": true
+    },
+    {
+      "content": "de.telekom.mail",
+      "isString": true
+    },
+    {
+      "content": "de.web.mobile.android.mail",
+      "isString": true
+    },
+    {
+      "content": "com.my.mail",
+      "isString": true
+    },
+    {
+      "content": "com.google.android.gm",
+      "isString": true
+    },
+    {
+      "content": "com.google.android.email",
+      "isString": true
+    },
+    {
+      "content": "com.google.android.apps.inbox",
+      "isString": true
+    },
+    {
+      "content": "com.fsck.k9",
+      "isString": true
+    },
+    {
+      "content": "ru.mail.mailapp",
+      "isString": true
+    },
+    {
+      "content": "ru.yandex.mail",
+      "isString": true
+    },
+    {
+      "content": "com.connectivityapps.hotmail",
+      "isString": true
+    },
+    {
+      "content": "com.appple.app.email",
+      "isString": true
+    },
+    {
+      "content": "com.android.email",
+      "isString": true
+    },
+    {
+      "content": "com.htc.android.mail",
+      "isString": true
+    },
+    {
+      "content": "com.lge.email",
+      "isString": true
+    },
+    {
+      "content": "com.onegravity.k10.free",
+      "isString": true
+    },
+    {
+      "content": "com.samsung.android.email",
+      "isString": true
+    },
+    {
+      "content": "com.sec.android.email",
+      "isString": true
+    },
+    {
+      "content": "com.samsung.android.email.provider",
+      "isString": true
+    },
+    {
+      "content": "com.google.android.email",
+      "isString": true
+    },
+    {
+      "content": "me.bluemail.mail",
+      "isString": true
+    },
+    {
+      "content": "com.microsoft.office.outlook",
+      "isString": true
+    },
+    {
+      "content": "com.microsoft.exchange.mowa",
+      "isString": true
+    },
+    {
+      "content": "com.asus.email",
+      "isString": true
+    },
+    {
+      "content": "com.mail.emails",
+      "isString": true
+    },
+    {
+      "content": "com.maildroid",
+      "isString": true
+    },
+    {
+      "content": "com.granita.icloudmail",
+      "isString": true
+    },
+    {
+      "content": "com.cloudmagic.mail",
+      "isString": true
+    },
+    {
+      "content": "com.mail.mobile.android.mail",
+      "isString": true
+    },
+    {
+      "content": "com.trtf.blue",
+      "isString": true
+    },
+    {
+      "content": "com.lonelycatgames.PM",
+      "isString": true
+    },
+    {
+      "content": "com.mail1click",
+      "isString": true
+    },
+    {
+      "content": "com.boxer.email",
+      "isString": true
+    },
+    {
+      "content": "net.daum.android.solmail",
+      "isString": true
+    },
+    {
+      "content": "at.rundquadrat.android.r2mail2",
+      "isString": true
+    },
+    {
+      "content": "pl.mobileexperts.securemail",
+      "isString": true
+    },
+    {
+      "content": "ch.protonmail.android",
+      "isString": true
+    }
+  ],
+  "sharing.priority": [
+    {
+      "content": "com.facebook.orca",
+      "isString": true
+    },
+    {
+      "content": "com.whatsapp",
+      "isString": true
+    },
+    {
+      "content": "com.google.android.apps.fireball",
+      "isString": true
+    },
+    {
+      "content": "com.google.android.talk",
+      "isString": true
+    },
+    {
+      "content": "com.google.android.apps.messaging",
+      "isString": true
+    },
+    {
+      "content": "com.tencent.mm",
+      "isString": true
+    },
+    {
+      "content": "com.facebook.katana",
+      "isString": true
+    },
+    {
+      "content": "com.twitter.android",
+      "isString": true
+    },
+    {
+      "content": "com.google.android.apps.plus",
+      "isString": true
+    },
+    {
+      "content": "ch.threema.app",
+      "isString": true
+    },
+    {
+      "content": "org.telegram.messenger",
+      "isString": true
+    },
+    {
+      "content": "org.thoughtcrime.securesms",
+      "isString": true
+    }
+  ],
+  "shop.clear_session_cookie": {
+    "content": "false",
+    "isString": false
+  },
+  "shop.digest_auth": {
+    "content": "true",
+    "isString": false
+  },
+  "shop.force_legacy_web_view_history": {
+    "content": "false",
+    "isString": false
+  },
+  "tracking.adjust.add_to_basket": {
+    "content": "ya3et6",
+    "isString": true
+  },
+  "tracking.adjust.add_to_wishlist": {
+    "content": "iebjqn",
+    "isString": true
+  },
+  "tracking.adjust.login": {
+    "content": "fmz7cm",
+    "isString": true
+  },
+  "tracking.ignore_webbridge": {
+    "content": "false",
+    "isString": false
+  },
+  "url.action_account": {
+    "content": "mi-cuenta/",
+    "isString": true
+  },
+  "url.action_account_orders": {
+    "content": "mi-cuenta/?page=orders",
+    "isString": true
+  },
+  "url.action_account_service": {
+    "content": "servicio/",
+    "isString": true
+  },
+  "url.action_account_wishlist": {
+    "content": "favoritos/",
+    "isString": true
+  },
+  "url.action_basket": {
+    "content": "cesta/",
+    "isString": true
+  },
+  "url.action_favorites": {
+    "content": "wishlist/",
+    "isString": true
+  },
+  "url.action_login": {
+    "content": "mi-cuenta/login?redirect=/",
+    "isString": true
+  },
+  "url.action_logout": {
+    "content": "mi-cuenta/logout?redirect=/mi-cuenta/login",
+    "isString": true
+  },
+  "url.action_privacy": {
+    "content": "/servicio/privacidad",
+    "isString": true
+  },
+  "url.action_rating": {
+    "content": "app://openRating",
+    "isString": true
+  },
+  "url.action_register": {
+    "content": "mi-cuenta/register/",
+    "isString": true
+  },
+  "url.action_search": {
+    "content": "app://openSearch",
+    "isString": true
+  },
+  "url.action_settings": {
+    "content": "app://openSettings",
+    "isString": true
+  },
+  "url.api_image": {
+    "content": "https://bpx.aac.ninja/image-v2/scaled?scaleUp=false&bucketPower=2",
+    "isString": true
+  },
+  "url.api_navigation": {
+    "content": "mobile-api/navigation",
+    "isString": true
+  },
+  "url.api_navigation.assortment": {
+    "content": "mobile-api/navigation/assortment",
+    "isString": true
+  },
+  "url.api_navigation.service": {
+    "content": "mobile-api/navigation/service",
+    "isString": true
+  },
+  "url.api_search": {
+    "content": "mobile-api/search/?term=",
+    "isString": true
+  },
+  "url.api_suggest": {
+    "content": "mobile-api/search/autocomplete?term=",
+    "isString": true
+  },
+  "url.shake_a_deal": {
+    "content": "https://bpx.aac.ninja/shakeadeal/v1/deal/",
+    "isString": true
+  },
+  "urls.account": [
+    {
+      "content": "app://openAccount",
+      "isString": true
+    },
+    {
+      "content": "app://openAccount/service",
+      "isString": true
+    },
+    {
+      "content": "regex:^https?:\\/\\/(.*\\.)?bonprix\\.(es|fi)\\/myaccount(?!\\/logout).*",
+      "isString": true
+    },
+    {
+      "content": "regex:^https?:\\/\\/(.*\\.)?bonprix\\.fi\\/tilini(?!\\/logout).*",
+      "isString": true
+    },
+    {
+      "content": "regex:^https?:\\/\\/(.*\\.)?bonprix\\.es\\/mi-cuenta(?!\\/logout).*",
+      "isString": true
+    }
+  ],
+  "urls.basket": [
+    {
+      "content": "cesta",
+      "isString": true
+    }
+  ],
+  "urls.browser": [],
+  "urls.content": [
+    {
+      "content": "regex:.*\\.pdf",
+      "isString": true
+    }
+  ],
+  "urls.external": [
+    {
+      "content": "https://www.facebook.com",
+      "isString": true
+    },
+    {
+      "content": "https://www.instagram.com/bonprix",
+      "isString": true
+    },
+    {
+      "content": "http://www.youtube.com/bonprix",
+      "isString": true
+    },
+    {
+      "content": "http://www.pinterest.de/bonprix",
+      "isString": true
+    },
+    {
+      "content": "https://www.computop-paygate.com/",
+      "isString": true
+    },
+    {
+      "content": "https://www.paypal.com/",
+      "isString": true
+    }
+  ],
+  "urls.ignored": [
+    {
+      "content": "about:blank",
+      "isString": true
+    }
+  ],
+  "urls.internal": [
+    {
+      "content": "regex:^https?:\\/\\/.*bonprix.*\\..*",
+      "isString": true
+    },
+    {
+      "content": "esres.bonprix.es",
+      "isString": true
+    },
+    {
+      "content": "esres.bonprix.fi",
+      "isString": true
+    },
+    {
+      "content": "gfx.bonprix.es",
+      "isString": true
+    },
+    {
+      "content": "gfx.bonprix.fi",
+      "isString": true
+    },
+    {
+      "content": "ssl.hurra.com",
+      "isString": true
+    },
+    {
+      "content": "www.youtube.com",
+      "isString": true
+    }
+  ],
+  "urls.refresh_trigger": [],
+  "urls.start_page": [
+    {
+      "content": "regex:^https?:\\/\\/(.+\\.)?bonprix(es|shop|)\\.[a-z]+\\/$",
+      "isString": true
+    }
+  ],
+  "user.persist_state": {
+    "content": "true",
+    "isString": false
+  },
+  "user_agent.accengage.enabled": {
+    "content": "true",
+    "isString": false
+  },
+  "user_agent.adjust.enabled": {
+    "content": "true",
+    "isString": false
+  },
+  "user_agent.airship.enabled": {
+    "content": "true",
+    "isString": false
+  }
+}

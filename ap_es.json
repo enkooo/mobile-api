@@ -56,7 +56,7 @@
     "isString": false
   },
   "app.base_url": {
-    "content": "https://www.bonprix.es/",
+    "content": "https://www.stage-www-bonprix-es.m4u.pl/",
     "isString": true
   },
   "configurations": [
@@ -203,7 +203,7 @@
         "isString": true
       },
       "host": {
-        "content": "stage-www-bonprix-es.m4u.pl",
+        "content": "bonprix.es",
         "isString": true
       },
       "locale": {

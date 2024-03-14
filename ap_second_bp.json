@@ -1,0 +1,1514 @@
+{
+  "adjust.token.purchase_completed": {
+    "content": "e82ad8",
+    "isString": true
+  },
+  "adjust.token.rated_good": {
+    "content": "1gkz4q",
+    "isString": true
+  },
+  "adjust.token.rating_choice_bad": {
+    "content": "s371gq",
+    "isString": true
+  },
+  "adjust.token.rating_choice_good": {
+    "content": "utvxpe",
+    "isString": true
+  },
+  "adjust.token.recommendation": {
+    "content": "ra0dde",
+    "isString": true
+  },
+  "adjust.token.shared": {
+    "content": "6cc09f",
+    "isString": true
+  },
+  "adjust.token.sharing_link": {
+    "content": "4bnrab",
+    "isString": true
+  },
+  "adjust.token.sharing_menu_opened": {
+    "content": "6cc09f",
+    "isString": true
+  },
+  "adjust.token.sharing_screenshot": {
+    "content": "6fxsk4",
+    "isString": true
+  },
+  "airship.tracking": {
+    "content": "true",
+    "isString": false
+  },
+  "airship.tracking.basket_badge_count": {
+    "content": "true",
+    "isString": false
+  },
+  "airship.tracking.purchase_completed": {
+    "content": "true",
+    "isString": false
+  },
+  "airship.tracking.user_info": {
+    "content": "true",
+    "isString": false
+  },
+  "airship_channel_id_dialog": {
+    "content": "true",
+    "isString": false
+  },
+  "app.base_url": {
+    "content": "https://second-bp.m4u.pl/",
+    "isString": true
+  },
+  "configurations": [
+    {
+      "config_pl": {
+        "content": "config_pl.json",
+        "isString": true
+      }
+    },
+    {
+      "config_ro": {
+        "content": "config_ro.json",
+        "isString": true
+      }
+    },
+    {
+      "config_ua": {
+        "content": "config_ua.json",
+        "isString": true
+      }
+    },
+    {
+      "config_sk": {
+        "content": "config_sk.json",
+        "isString": true
+      }
+    },
+    {
+      "config_hu": {
+        "content": "config_hu.json",
+        "isString": true
+      }
+    },
+    {
+      "config_*": {
+        "content": "config_pl.json",
+        "isString": true
+      }
+    },
+    {
+      "media4u_pl": {
+        "content": "media4u_pl.json",
+        "isString": true
+      }
+    },
+    {
+      "media4u_ro": {
+        "content": "media4u_ro.json",
+        "isString": true
+      }
+    },
+    {
+      "media4u_ua": {
+        "content": "media4u_ua.json",
+        "isString": true
+      }
+    },
+    {
+      "media4u_sk": {
+        "content": "media4u_sk.json",
+        "isString": true
+      }
+    },
+    {
+      "media4u_hu": {
+        "content": "media4u_hu.json",
+        "isString": true
+      }
+    },
+    {
+      "media4u_*": {
+        "content": "media4u_pl.json",
+        "isString": true
+      }
+    },
+    {
+      "dev_pl": {
+        "content": "dev_pl.json",
+        "isString": true
+      }
+    },
+    {
+      "dev_ro": {
+        "content": "dev_ro.json",
+        "isString": true
+      }
+    },
+    {
+      "dev_ua": {
+        "content": "dev_ua.json",
+        "isString": true
+      }
+    },
+    {
+      "dev_sk": {
+        "content": "dev_sk.json",
+        "isString": true
+      }
+    },
+    {
+      "dev_hu": {
+        "content": "dev_hu.json",
+        "isString": true
+      }
+    },
+    {
+      "dev_*": {
+        "content": "dev_pl.json",
+        "isString": true
+      }
+    },
+    {
+      "stage_pl": {
+        "content": "stage_pl.json",
+        "isString": true
+      }
+    },
+    {
+      "stage_ro": {
+        "content": "stage_ro.json",
+        "isString": true
+      }
+    },
+    {
+      "stage_ua": {
+        "content": "stage_ua.json",
+        "isString": true
+      }
+    },
+    {
+      "stage_sk": {
+        "content": "stage_sk.json",
+        "isString": true
+      }
+    },
+    {
+      "stage_hu": {
+        "content": "stage_hu.json",
+        "isString": true
+      }
+    },
+    {
+      "stage*": {
+        "content": "stage_pl.json",
+        "isString": true
+      }
+    },
+    {
+      "test_pl": {
+        "content": "test_pl.json",
+        "isString": true
+      }
+    },
+    {
+      "test_ro": {
+        "content": "test_ro.json",
+        "isString": true
+      }
+    },
+    {
+      "test_ua": {
+        "content": "test_ua.json",
+        "isString": true
+      }
+    },
+    {
+      "test_sk": {
+        "content": "test_sk.json",
+        "isString": true
+      }
+    },
+    {
+      "test_hu": {
+        "content": "test_hu.json",
+        "isString": true
+      }
+    },
+    {
+      "test_*": {
+        "content": "test _pl.json",
+        "isString": true
+      }
+    },
+    {
+      "*": {
+        "content": "config_pl.json",
+        "isString": true
+      }
+    }
+  ],
+  "configurations.format": "config_${COUNTRY_CODE:pl}",
+  "feature.app_links": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.banner_assortment_navigation": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.country_switch_on_start": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.inbox": {
+    "content": "false",
+    "isString": false
+  },
+  "feature.inbox.detailWebView": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.new_navigation": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.prevent_content_cut_off": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.push": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.push.install_default_opt_in": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.rating": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.recommendation": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.search_box": {
+    "content": "false",
+    "isString": false
+  },
+  "feature.search_v2": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.search_v2_shortcut_myaccount": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.search_v2_trending": {
+    "content": "false",
+    "isString": false
+  },
+  "feature.shakeADeal": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.sharing": {
+    "content": "false",
+    "isString": false
+  },
+  "feature.track_uninstall": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.tracking": {
+    "content": "true",
+    "isString": false
+  },
+  "feature.welcome_screen": {
+    "content": "true",
+    "isString": false
+  },
+  "firebase.analytic_events": {
+    "content": "true",
+    "isString": false
+  },
+  "firebase.log_caught_exceptions": {
+    "content": "true",
+    "isString": false
+  },
+  "i18n.countries": [
+    {
+      "code": {
+        "content": "ua",
+        "isString": true
+      },
+      "host": {
+        "content": "bonprix.ua",
+        "isString": true
+      },
+      "locale": {
+        "content": "ru_UA",
+        "isString": true
+      },
+      "name": {
+        "content": "Украина",
+        "isString": true
+      }
+    },
+    {
+      "code": {
+        "content": "hu",
+        "isString": true
+      },
+      "host": {
+        "content": "bonprix.hu",
+        "isString": true
+      },
+      "locale": {
+        "content": "hu_HU",
+        "isString": true
+      },
+      "name": {
+        "content": "Magyarország",
+        "isString": true
+      }
+    },
+    {
+      "code": {
+        "content": "sk",
+        "isString": true
+      },
+      "host": {
+        "content": "bonprix.sk",
+        "isString": true
+      },
+      "locale": {
+        "content": "sk_SK",
+        "isString": true
+      },
+      "name": {
+        "content": "Slovensko",
+        "isString": true
+      }
+    },
+    {
+      "code": {
+        "content": "pl",
+        "isString": true
+      },
+      "host": {
+        "content": "bonprix.pl",
+        "isString": true
+      },
+      "locale": {
+        "content": "pl_PL",
+        "isString": true
+      },
+      "name": {
+        "content": "Polska",
+        "isString": true
+      }
+    },
+    {
+      "code": {
+        "content": "ro",
+        "isString": true
+      },
+      "host": {
+        "content": "bonprix.ro",
+        "isString": true
+      },
+      "locale": {
+        "content": "ro_RO",
+        "isString": true
+      },
+      "name": {
+        "content": "România",
+        "isString": true
+      }
+    }
+  ],
+  "i18n.install_default": "pl",
+  "image_api.timeout": {
+    "content": "20000.0",
+    "isString": false
+  },
+  "log.level": {
+    "content": "INFO",
+    "isString": true
+  },
+  "navigation.add_start_page": {
+    "content": "true",
+    "isString": false
+  },
+  "navigation.flatten_top_level": {
+    "content": "true",
+    "isString": false
+  },
+  "navigation.legacy.logout_button": {
+    "content": "true",
+    "isString": false
+  },
+  "navigation.upper_case_mode": {
+    "content": "none",
+    "isString": true
+  },
+  "push.promotion_layer.trigger.app_start": {
+    "content": "false",
+    "isString": false
+  },
+  "push.promotion_layer.trigger.purchase_completed": {
+    "content": "false",
+    "isString": false
+  },
+  "push.promotion_layer.trigger.screen_views": {
+    "content": "false",
+    "isString": false
+  },
+  "push.promotion_layer.trigger.screen_views.count": {
+    "content": "20.0",
+    "isString": false
+  },
+  "push.promotion_layer.trigger.url": {
+    "content": "true",
+    "isString": false
+  },
+  "push.promotion_layer.trigger.webbridge": {
+    "content": "true",
+    "isString": false
+  },
+  "rating.show_after_start_count": {
+    "content": "10.0",
+    "isString": false
+  },
+  "rating.trigger_again_if_declined": {
+    "content": "true",
+    "isString": false
+  },
+  "recommendation.link": {
+    "content": "https://app.adjust.com/3nmw5o_p2ibir",
+    "isString": true
+  },
+  "recommendation.message_text": {
+    "content": "Hey, you might like the bonprix app. Get the app now on the App Store or Google Play:",
+    "isString": true
+  },
+  "retrieval.timeout_connect_in_ms": {
+    "content": "20000.0",
+    "isString": false
+  },
+  "retrieval.timeout_read_in_ms": {
+    "content": "22500.0",
+    "isString": false
+  },
+  "shakeADealDurationOfDeal": {
+    "content": "5000.0",
+    "isString": false
+  },
+  "shakeADealNumberOfDeals": {
+    "content": "5.0",
+    "isString": false
+  },
+  "shakeADealResumeThreshold": {
+    "content": "3000.0",
+    "isString": false
+  },
+  "sharing.blacklist": [
+    {
+      "content": "com.syntomo.email",
+      "isString": true
+    },
+    {
+      "content": "com.yahoo.mobile.client.android.mail",
+      "isString": true
+    },
+    {
+      "content": "de.eue.mobile.android.mail",
+      "isString": true
+    },
+    {
+      "content": "de.freenet.mail",
+      "isString": true
+    },
+    {
+      "content": "de.gmx.mobile.android.mail",
+      "isString": true
+    },
+    {
+      "content": "de.telekom.mail",
+      "isString": true
+    },
+    {
+      "content": "de.web.mobile.android.mail",
+      "isString": true
+    },
+    {
+      "content": "com.my.mail",
+      "isString": true
+    },
+    {
+      "content": "com.google.android.gm",
+      "isString": true
+    },
+    {
+      "content": "com.google.android.email",
+      "isString": true
+    },
+    {
+      "content": "com.google.android.apps.inbox",
+      "isString": true
+    },
+    {
+      "content": "com.fsck.k9",
+      "isString": true
+    },
+    {
+      "content": "ru.mail.mailapp",
+      "isString": true
+    },
+    {
+      "content": "ru.yandex.mail",
+      "isString": true
+    },
+    {
+      "content": "com.connectivityapps.hotmail",
+      "isString": true
+    },
+    {
+      "content": "com.appple.app.email",
+      "isString": true
+    },
+    {
+      "content": "com.android.email",
+      "isString": true
+    },
+    {
+      "content": "com.htc.android.mail",
+      "isString": true
+    },
+    {
+      "content": "com.lge.email",
+      "isString": true
+    },
+    {
+      "content": "com.onegravity.k10.free",
+      "isString": true
+    },
+    {
+      "content": "com.samsung.android.email",
+      "isString": true
+    },
+    {
+      "content": "com.sec.android.email",
+      "isString": true
+    },
+    {
+      "content": "com.samsung.android.email.provider",
+      "isString": true
+    },
+    {
+      "content": "com.google.android.email",
+      "isString": true
+    },
+    {
+      "content": "me.bluemail.mail",
+      "isString": true
+    },
+    {
+      "content": "com.microsoft.office.outlook",
+      "isString": true
+    },
+    {
+      "content": "com.microsoft.exchange.mowa",
+      "isString": true
+    },
+    {
+      "content": "com.asus.email",
+      "isString": true
+    },
+    {
+      "content": "com.mail.emails",
+      "isString": true
+    },
+    {
+      "content": "com.maildroid",
+      "isString": true
+    },
+    {
+      "content": "com.granita.icloudmail",
+      "isString": true
+    },
+    {
+      "content": "com.cloudmagic.mail",
+      "isString": true
+    },
+    {
+      "content": "com.mail.mobile.android.mail",
+      "isString": true
+    },
+    {
+      "content": "com.trtf.blue",
+      "isString": true
+    },
+    {
+      "content": "com.lonelycatgames.PM",
+      "isString": true
+    },
+    {
+      "content": "com.mail1click",
+      "isString": true
+    },
+    {
+      "content": "com.boxer.email",
+      "isString": true
+    },
+    {
+      "content": "net.daum.android.solmail",
+      "isString": true
+    },
+    {
+      "content": "at.rundquadrat.android.r2mail2",
+      "isString": true
+    },
+    {
+      "content": "pl.mobileexperts.securemail",
+      "isString": true
+    },
+    {
+      "content": "ch.protonmail.android",
+      "isString": true
+    }
+  ],
+  "sharing.priority": [
+    {
+      "content": "com.facebook.orca",
+      "isString": true
+    },
+    {
+      "content": "com.whatsapp",
+      "isString": true
+    },
+    {
+      "content": "com.google.android.apps.fireball",
+      "isString": true
+    },
+    {
+      "content": "com.google.android.talk",
+      "isString": true
+    },
+    {
+      "content": "com.google.android.apps.messaging",
+      "isString": true
+    },
+    {
+      "content": "com.tencent.mm",
+      "isString": true
+    },
+    {
+      "content": "com.facebook.katana",
+      "isString": true
+    },
+    {
+      "content": "com.twitter.android",
+      "isString": true
+    },
+    {
+      "content": "com.google.android.apps.plus",
+      "isString": true
+    },
+    {
+      "content": "ch.threema.app",
+      "isString": true
+    },
+    {
+      "content": "org.telegram.messenger",
+      "isString": true
+    },
+    {
+      "content": "org.thoughtcrime.securesms",
+      "isString": true
+    }
+  ],
+  "shop.clear_session_cookie": {
+    "content": "false",
+    "isString": false
+  },
+  "shop.force_legacy_web_view_history": {
+    "content": "false",
+    "isString": false
+  },
+  "shop.pwa": {
+    "content": "true",
+    "isString": false
+  },
+  "shop.support_legacy_web_view_history": {
+    "content": "true",
+    "isString": false
+  },
+  "tracking.adjust.add_to_basket": {
+    "content": "wp7ko3",
+    "isString": true
+  },
+  "tracking.adjust.add_to_wishlist": {
+    "content": "3rhd0k",
+    "isString": true
+  },
+  "tracking.adjust.login": {
+    "content": "44yc83",
+    "isString": true
+  },
+  "tracking.adjust.new_registration": {
+    "content": "c3m4ji",
+    "isString": true
+  },
+  "tracking.ignore_webbridge": {
+    "content": "true",
+    "isString": false
+  },
+  "url.action_account": {
+    "content": "my-account/",
+    "isString": true
+  },
+  "url.action_basket": {
+    "content": "cart/",
+    "isString": true
+  },
+  "url.action_favorites": {
+    "content": "wishlist",
+    "isString": true
+  },
+  "url.action_login": {
+    "content": "my-account/login",
+    "isString": true
+  },
+  "url.action_logout": {
+    "content": "my-account/logout",
+    "isString": true
+  },
+  "url.action_privacy": {
+    "content": "/pomoc/polityka-prywatnosci",
+    "isString": true
+  },
+  "url.action_rating": {
+    "content": "app://openRating",
+    "isString": true
+  },
+  "url.action_register": {
+    "content": "shipping_reg",
+    "isString": true
+  },
+  "url.action_search": {
+    "content": "app://openSearch",
+    "isString": true
+  },
+  "url.action_search_shortcut_account_overview": {
+    "content": "my-account/",
+    "isString": true
+  },
+  "url.action_search_shortcut_new_in": {
+    "content": "kategoria/1860/nowosci/",
+    "isString": true
+  },
+  "url.action_search_shortcut_sale": {
+    "content": "kategoria/3794/sale/",
+    "isString": true
+  },
+  "url.action_settings": {
+    "content": "app://openSettings",
+    "isString": true
+  },
+  "url.api_image": {
+    "content": "https://bon-master.aac.ninja/image-v2/scaled?scaleUp=false&bucketPower=2",
+    "isString": true
+  },
+  "url.api_navigation": {
+    "content": "mobile-api/navigation",
+    "isString": true
+  },
+  "url.api_navigation.assortment": {
+    "content": "mobile-api/navigation/assortment",
+    "isString": true
+  },
+  "url.api_navigation.service": {
+    "content": "mobile-api/navigation/service",
+    "isString": true
+  },
+  "url.api_search": {
+    "content": "mobile-api/search/?term=",
+    "isString": true
+  },
+  "url.api_suggest": {
+    "content": "https://bon-master.aac.ninja/search-media4u/v1/pl_PL/suggest?query=",
+    "isString": true
+  },
+  "url.shake_a_deal": "https://bon.aac.ninja/shakeadeal/v1/deal/",
+  "urls.account": [
+    {
+      "content": "my-account",
+      "isString": true
+    },
+    {
+      "content": "app://openAccount",
+      "isString": true
+    },
+    {
+      "content": "app://openAccount/service",
+      "isString": true
+    }
+  ],
+  "urls.basket": [
+    {
+      "content": "cart/",
+      "isString": true
+    }
+  ],
+  "urls.browser": [
+    {
+      "content": "https://twitter.com/bonprixPL",
+      "isString": true
+    },
+    {
+      "content": "https://vk.com/",
+      "isString": true
+    },
+    {
+      "content": "https://www.facebook.com/bonprixHU",
+      "isString": true
+    },
+    {
+      "content": "https://www.facebook.com/bonprixRO",
+      "isString": true
+    },
+    {
+      "content": "https://www.facebook.com/bonprixSK",
+      "isString": true
+    },
+    {
+      "content": "https://www.facebook.com/bonprixUA",
+      "isString": true
+    },
+    {
+      "content": "https://www.pinterest.com/bonprixPL/",
+      "isString": true
+    },
+    {
+      "content": "https://www.tumblr.com/blog/bonprixpl",
+      "isString": true
+    },
+    {
+      "content": "https://www.youtube.com/bonprix",
+      "isString": true
+    },
+    {
+      "content": "https://plus.google.com/u/0/107689392111309087360",
+      "isString": true
+    },
+    {
+      "content": "https://www.facebook.com/bonprixPL",
+      "isString": true
+    },
+    {
+      "content": "https://www.instagram.com/bonprix/",
+      "isString": true
+    },
+    {
+      "content": "https://www.trustedshops.pl/shop/certificate.php?shop_id=XCAFC712E9EFD41B7591CCFE24DD94702",
+      "isString": true
+    }
+  ],
+  "urls.content": [
+    {
+      "content": "regex:.*\\.pdf",
+      "isString": true
+    }
+  ],
+  "urls.external": [
+    {
+      "content": "https://secure.payu.com",
+      "isString": true
+    },
+    {
+      "content": "https://www.computop-paygate.com",
+      "isString": true
+    },
+    {
+      "content": "https://www.payu.pl",
+      "isString": true
+    },
+    {
+      "content": "https://bonprixplnew.media4u.pl/checkout/",
+      "isString": true
+    },
+    {
+      "content": "https://inpost.pl",
+      "isString": true
+    },
+    {
+      "content": "https://www.twisto.pl",
+      "isString": true
+    },
+    {
+      "content": "https://paypo.pl",
+      "isString": true
+    },
+    {
+      "content": "https://emonitoring.poczta-polska.pl",
+      "isString": true
+    }
+  ],
+  "urls.ignored": [
+    {
+      "content": "about:blank",
+      "isString": true
+    }
+  ],
+  "urls.internal": [
+    {
+      "content": "regex:^https?:\\/\\/.*bonprix.*\\..*",
+      "isString": true
+    },
+    {
+      "content": "a.twiago.com",
+      "isString": true
+    },
+    {
+      "content": "ad.360yield.com",
+      "isString": true
+    },
+    {
+      "content": "ad.adriver.ru",
+      "isString": true
+    },
+    {
+      "content": "ad.sxp.smartclip.net",
+      "isString": true
+    },
+    {
+      "content": "ad.yieldlab.net",
+      "isString": true
+    },
+    {
+      "content": "ads.stickyadstv.com",
+      "isString": true
+    },
+    {
+      "content": "ads.yahoo.com",
+      "isString": true
+    },
+    {
+      "content": "ads.yieldmo.com",
+      "isString": true
+    },
+    {
+      "content": "am15.net",
+      "isString": true
+    },
+    {
+      "content": "ams.creativecdn.com",
+      "isString": true
+    },
+    {
+      "content": "api.moxielinks.com",
+      "isString": true
+    },
+    {
+      "content": "aprtn.com",
+      "isString": true
+    },
+    {
+      "content": "aprtx.com",
+      "isString": true
+    },
+    {
+      "content": "bh.contextweb.com",
+      "isString": true
+    },
+    {
+      "content": "bid.g.doubleclick.net",
+      "isString": true
+    },
+    {
+      "content": "bsw.digitru.st",
+      "isString": true
+    },
+    {
+      "content": "cdn.admitad.com",
+      "isString": true
+    },
+    {
+      "content": "cdn.dumedia.ru",
+      "isString": true
+    },
+    {
+      "content": "cdn.mouseflow.com",
+      "isString": true
+    },
+    {
+      "content": "ce.lijit.com",
+      "isString": true
+    },
+    {
+      "content": "cm.adform.net",
+      "isString": true
+    },
+    {
+      "content": "cm.creativecdn.com",
+      "isString": true
+    },
+    {
+      "content": "cm.g.doubleclick.net",
+      "isString": true
+    },
+    {
+      "content": "cms.quantserve.com",
+      "isString": true
+    },
+    {
+      "content": "code.directadvert.ru",
+      "isString": true
+    },
+    {
+      "content": "connect.facebook.net",
+      "isString": true
+    },
+    {
+      "content": "content.adriver.ru",
+      "isString": true
+    },
+    {
+      "content": "cosy.smaato.net",
+      "isString": true
+    },
+    {
+      "content": "cotads.adscale.de",
+      "isString": true
+    },
+    {
+      "content": "creativecdn.com",
+      "isString": true
+    },
+    {
+      "content": "criteo-partners.tremorhub.com",
+      "isString": true
+    },
+    {
+      "content": "criteo-sync.teads.tv",
+      "isString": true
+    },
+    {
+      "content": "csr.onet.pl",
+      "isString": true
+    },
+    {
+      "content": "csync.viralgains.com",
+      "isString": true
+    },
+    {
+      "content": "cw.addthis.com",
+      "isString": true
+    },
+    {
+      "content": "dis.criteo.com",
+      "isString": true
+    },
+    {
+      "content": "dis.eu.criteo.com",
+      "isString": true
+    },
+    {
+      "content": "dmp.adx.com.ru",
+      "isString": true
+    },
+    {
+      "content": "dsum-sec.casalemedia.com",
+      "isString": true
+    },
+    {
+      "content": "dsum.casalemedia.com",
+      "isString": true
+    },
+    {
+      "content": "eb2.3lift.com",
+      "isString": true
+    },
+    {
+      "content": "farm.plista.com",
+      "isString": true
+    },
+    {
+      "content": "fei.pro-market.net",
+      "isString": true
+    },
+    {
+      "content": "fo-ssp.omnitagjs.com",
+      "isString": true
+    },
+    {
+      "content": "gce-be.bidswitch.net",
+      "isString": true
+    },
+    {
+      "content": "googleads.g.doubleclick.net",
+      "isString": true
+    },
+    {
+      "content": "i.liadm.com",
+      "isString": true
+    },
+    {
+      "content": "ib.adnxs.com",
+      "isString": true
+    },
+    {
+      "content": "ih.adscale.de",
+      "isString": true
+    },
+    {
+      "content": "image2.pubmatic.com",
+      "isString": true
+    },
+    {
+      "content": "js.mixmarket.biz",
+      "isString": true
+    },
+    {
+      "content": "kt.mixmarket.biz",
+      "isString": true
+    },
+    {
+      "content": "load77.exelator.com",
+      "isString": true
+    },
+    {
+      "content": "loadm.exelator.com",
+      "isString": true
+    },
+    {
+      "content": "match.adsrvr.org",
+      "isString": true
+    },
+    {
+      "content": "match.sharethrough.com",
+      "isString": true
+    },
+    {
+      "content": "matching.ivitrack.com",
+      "isString": true
+    },
+    {
+      "content": "mc.media4u.pl",
+      "isString": true
+    },
+    {
+      "content": "mc.yandex.ru",
+      "isString": true
+    },
+    {
+      "content": "mox.moxielinks.com",
+      "isString": true
+    },
+    {
+      "content": "my.rtmark.net",
+      "isString": true
+    },
+    {
+      "content": "odr.mookie1.com",
+      "isString": true
+    },
+    {
+      "content": "p.adsymptotic.com",
+      "isString": true
+    },
+    {
+      "content": "p.rfihub.com",
+      "isString": true
+    },
+    {
+      "content": "pixel.advertising.com",
+      "isString": true
+    },
+    {
+      "content": "pixel.rubiconproject.com",
+      "isString": true
+    },
+    {
+      "content": "r.holder.com.ua",
+      "isString": true
+    },
+    {
+      "content": "r.remarketingpixel.com",
+      "isString": true
+    },
+    {
+      "content": "r.turn.com",
+      "isString": true
+    },
+    {
+      "content": "retarget.ssl-services.com",
+      "isString": true
+    },
+    {
+      "content": "router.infolinks.com",
+      "isString": true
+    },
+    {
+      "content": "rp.gwallet.com",
+      "isString": true
+    },
+    {
+      "content": "rt.am15.net",
+      "isString": true
+    },
+    {
+      "content": "rtb-csync.smartadserver.com",
+      "isString": true
+    },
+    {
+      "content": "rtb.com.ru",
+      "isString": true
+    },
+    {
+      "content": "rtbcc.fyber.com",
+      "isString": true
+    },
+    {
+      "content": "s.amazon-adsystem.com",
+      "isString": true
+    },
+    {
+      "content": "s.thebrighttag.com",
+      "isString": true
+    },
+    {
+      "content": "s.ytimg.com",
+      "isString": true
+    },
+    {
+      "content": "secure.adnxs.com",
+      "isString": true
+    },
+    {
+      "content": "simage2.pubmatic.com",
+      "isString": true
+    },
+    {
+      "content": "sp.analytics.yahoo.com",
+      "isString": true
+    },
+    {
+      "content": "ssl.hurra.com",
+      "isString": true
+    },
+    {
+      "content": "sslwidget.criteo.com",
+      "isString": true
+    },
+    {
+      "content": "ssp.adriver.ru",
+      "isString": true
+    },
+    {
+      "content": "ssum-sec.casalemedia.com",
+      "isString": true
+    },
+    {
+      "content": "static.criteo.net",
+      "isString": true
+    },
+    {
+      "content": "stats.adsniper.ru",
+      "isString": true
+    },
+    {
+      "content": "stats.g.doubleclick.net",
+      "isString": true
+    },
+    {
+      "content": "sy.eu.angsrvr.com",
+      "isString": true
+    },
+    {
+      "content": "sync.1rx.io",
+      "isString": true
+    },
+    {
+      "content": "sync.adaptv.advertising.com",
+      "isString": true
+    },
+    {
+      "content": "sync.ligadx.com",
+      "isString": true
+    },
+    {
+      "content": "sync.mathtag.com",
+      "isString": true
+    },
+    {
+      "content": "sync.outbrain.com",
+      "isString": true
+    },
+    {
+      "content": "sync.search.spotxchange.com",
+      "isString": true
+    },
+    {
+      "content": "t.goadservices.com",
+      "isString": true
+    },
+    {
+      "content": "t.mookie1.com",
+      "isString": true
+    },
+    {
+      "content": "t.wayfair.com",
+      "isString": true
+    },
+    {
+      "content": "tlg.mookie1.com",
+      "isString": true
+    },
+    {
+      "content": "tr.mixmarket.biz",
+      "isString": true
+    },
+    {
+      "content": "track.dumedia.ru",
+      "isString": true
+    },
+    {
+      "content": "track.recreativ.ru",
+      "isString": true
+    },
+    {
+      "content": "trc.taboola.com",
+      "isString": true
+    },
+    {
+      "content": "udata.mixmarket.biz",
+      "isString": true
+    },
+    {
+      "content": "ums.adtech.de",
+      "isString": true
+    },
+    {
+      "content": "ums.adtechus.com",
+      "isString": true
+    },
+    {
+      "content": "us-u.openx.net",
+      "isString": true
+    },
+    {
+      "content": "usync.nexage.com",
+      "isString": true
+    },
+    {
+      "content": "utarget.ru",
+      "isString": true
+    },
+    {
+      "content": "visitor.omnitagjs.com",
+      "isString": true
+    },
+    {
+      "content": "vk.com",
+      "isString": true
+    },
+    {
+      "content": "widget.criteo.com",
+      "isString": true
+    },
+    {
+      "content": "www.bonprix.hu",
+      "isString": true
+    },
+    {
+      "content": "www.bonprix.ua",
+      "isString": true
+    },
+    {
+      "content": "www.bonprixro.eu",
+      "isString": true
+    },
+    {
+      "content": "www.bonprix.ro",
+      "isString": true
+    },
+    {
+      "content": "www.bonprixshop.eu",
+      "isString": true
+    },
+    {
+      "content": "www.bonprix.sk",
+      "isString": true
+    },
+    {
+      "content": "www.dmpcloud.net",
+      "isString": true
+    },
+    {
+      "content": "www.facebook.com",
+      "isString": true
+    },
+    {
+      "content": "www.google-analytics.com",
+      "isString": true
+    },
+    {
+      "content": "www.google.com",
+      "isString": true
+    },
+    {
+      "content": "www.googleadservices.com",
+      "isString": true
+    },
+    {
+      "content": "www.googletagmanager.com",
+      "isString": true
+    },
+    {
+      "content": "www.youtube.com",
+      "isString": true
+    },
+    {
+      "content": "x.bidswitch.net",
+      "isString": true
+    },
+    {
+      "content": "x01.aidata.io",
+      "isString": true
+    },
+    {
+      "content": "z.lenmit.com",
+      "isString": true
+    },
+    {
+      "content": "ahgm.adj.st",
+      "isString": true
+    }
+  ],
+  "urls.refresh_trigger": [],
+  "urls.start_page": [
+    {
+      "content": "regex:^https?:\\/\\/(.+\\.)?bonprix(ro|shop|)\\.[a-z]+\\/$",
+      "isString": true
+    }
+  ],
+  "user.persist_state": {
+    "content": "true",
+    "isString": false
+  },
+  "user_agent.accengage.enabled": {
+    "content": "true",
+    "isString": false
+  },
+  "user_agent.adjust.enabled": {
+    "content": "true",
+    "isString": false
+  },
+  "user_agent.airship.enabled": {
+    "content": "true",
+    "isString": false
+  }
+}
